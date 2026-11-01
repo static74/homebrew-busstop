@@ -7,8 +7,8 @@
 # the tap, so the version and sha256 lines here can lag behind the tap's.
 # Edit the source, not the tap's copy.
 cask "busstop" do
-  version "1.4.0"
-  sha256 "81085be543fc0a0da79b63d1f7c4ea1b2499d8aba15cc8d04de8521049549bc3"
+  version "1.4.1"
+  sha256 "6b927d5f00d87a624cb0e9d5e2cf3f88658a8cbf0572e7e0dd9bd5e1b69f36af"
 
   url "https://github.com/static74/BusStop/releases/download/v#{version}/BusStop.dmg"
   name "Bus Stop"
@@ -23,7 +23,7 @@ cask "busstop" do
   # Bus Stop can install its own updates (Settings > General). brew upgrade
   # then leaves it alone unless given --greedy.
   auto_updates true
-  depends_on macos: ">= :tahoe"
+  depends_on macos: :tahoe
 
   app "Bus Stop.app"
   binary "#{appdir}/Bus Stop.app/Contents/Helpers/busstop"
