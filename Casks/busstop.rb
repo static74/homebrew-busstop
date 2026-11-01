@@ -23,7 +23,7 @@ cask "busstop" do
   # Bus Stop can install its own updates (Settings > General). brew upgrade
   # then leaves it alone unless given --greedy.
   auto_updates true
-  depends_on macos: ">= :tahoe"
+  depends_on macos: :tahoe
 
   app "Bus Stop.app"
   binary "#{appdir}/Bus Stop.app/Contents/Helpers/busstop"
