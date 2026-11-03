@@ -28,4 +28,4 @@ Add `--zap` to also delete the saved history, the preferences and the widgets' d
 
 ## About this repository
 
-The cask is generated. Its source is [`packaging/homebrew/Casks/busstop.rb`](https://github.com/static74/BusStop/blob/main/packaging/homebrew/Casks/busstop.rb) in the Bus Stop repository, and the release workflow pushes the new version and checksum here after each release. Changes to the cask belong there.
+The cask is generated. Its source is `packaging/homebrew/Casks/busstop.rb` in Bus Stop's source repository, and the release workflow pushes the new version and checksum here after each release. To suggest a change to the cask, open an issue on [static74/BusStop](https://github.com/static74/BusStop/issues).
