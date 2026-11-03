@@ -7,8 +7,8 @@
 # the tap, so the version and sha256 lines here can lag behind the tap's.
 # Edit the source, not the tap's copy.
 cask "busstop" do
-  version "1.6.0"
-  sha256 "267825c6daf2d7d0875ef4c74ec8a486546ef7265f60f4221c6bff1cfcf8febe"
+  version "1.6.1"
+  sha256 "c94ddcb23c5f6bc31be43739d35ecc2620d9c448583e2ceec6f797dad0d6527d"
 
   url "https://github.com/static74/BusStop/releases/download/v#{version}/BusStop.dmg"
   name "Bus Stop"
